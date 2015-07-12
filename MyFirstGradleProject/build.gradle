@@ -27,3 +27,9 @@ dependencies {
     //   http://www.gradle.org/docs/current/userguide/dependency_management.html#sec:how_to_declare_your_dependencies
     testCompile group: 'junit', name: 'junit', version: '4.10'
 }
+
+task hello {
+    doLast{
+        println 'Hola Tarea de gradle'
+    }   
+}
